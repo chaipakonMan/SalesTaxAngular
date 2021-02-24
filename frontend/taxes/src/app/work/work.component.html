@@ -1,0 +1,133 @@
+<mat-card class="card" style="text-align: center;">
+    <div class="header">Weekly Sales</div>
+    
+    <div class="row">
+        <div class="column">Date:</div>
+        <div class="column">Total Sales:</div>
+        <div class="column">Credit Card Sales:</div>
+    </div>
+
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day1'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales1'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard1'>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day2'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales2'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard2'>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day3'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales3'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard3'>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day4'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales4'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard4'>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day5'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales5'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard5'>
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row" style="font-size: 12px">
+        <div class="column">
+            <mat-form-field appearance="fill">
+                <mat-label>date</mat-label>
+                <input matInput [(ngModel)]='day6'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box1" appearance="fill">
+                <mat-label>Total</mat-label>
+                <input matInput type="number" [(ngModel)]='totalSales6'>
+            </mat-form-field>
+        </div>
+        <div class="column">
+            <mat-form-field class="box2" appearance="fill">
+                <mat-label>Credit</mat-label>
+                <input matInput type="number" [(ngModel)]='creditCard6'>
+            </mat-form-field>
+        </div>
+    </div>
+    
+    <button id="butt" mat-raised-button color="primary" (click)="submit()">Submit</button>
+
+</mat-card>

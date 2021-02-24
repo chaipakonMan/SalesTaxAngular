@@ -1,0 +1,31 @@
+.card {
+  width: 80%;
+}
+
+.columnn {
+  float: left;
+  width: 30%;
+  font-size: 17px;
+}  
+.column {
+    float: left;
+    width: 10%;
+}  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sm {
+  font-size: 17px;
+}
+
+#sml {
+  font-size: 13px;
+}
+
+#smll {
+  font-size: 1px;
+}
