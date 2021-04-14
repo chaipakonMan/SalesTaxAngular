@@ -53,10 +53,12 @@ export class WorkComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // totalSales# is actually cash amount
   submit() {
     let weekSize:number = 0;
     // console.log(this.totalSales1 +" "+ this.creditCard1.toString() +" "+ this.day1.toString());
     if(this.day1.length > 1){
+      this.totalSales1 = this.totalSales1 + this.creditCard1;
       weekSize++;
       let salesD1 = this.totalSales1 / 1.108;
       let salesTaxD1 = salesD1 * 0.108;
@@ -74,6 +76,7 @@ export class WorkComponent implements OnInit {
     // console.log(this.totalSales2 +" "+ this.creditCard2.toString() +" "+ this.day2.toString());
     if(this.day2.length > 1){
       weekSize++;
+      this.totalSales2 = this.totalSales2 + this.creditCard2;
       let salesD2 = this.totalSales2 / 1.108;
       let salesTaxD2 = salesD2 * 0.108;
       let toBeAccD2 = this.totalSales2 + 100;
@@ -89,6 +92,7 @@ export class WorkComponent implements OnInit {
     }
     // console.log(this.totalSales3 +" "+ this.creditCard3.toString() +" "+ this.day3.toString());
     if(this.day3.length > 1){
+      this.totalSales3 = this.totalSales3 + this.creditCard3;
       weekSize++;
       let salesD3 = this.totalSales3 / 1.108;
       let salesTaxD3 = salesD3 * 0.108;
@@ -105,6 +109,7 @@ export class WorkComponent implements OnInit {
     }
     // console.log(this.totalSales4 +" "+ this.creditCard4.toString() +" "+ this.day4.toString());
     if(this.day4.length > 1){
+      this.totalSales4 = this.totalSales4 + this.creditCard4;
       weekSize++;
       let salesD4 = this.totalSales4 / 1.108;
       let salesTaxD4 = salesD4 * 0.108;
@@ -121,6 +126,7 @@ export class WorkComponent implements OnInit {
     }
     // console.log(this.totalSales5 +" "+ this.creditCard5.toString() +" "+ this.day5.toString());
     if(this.day5.length > 1){
+      this.totalSales5 = this.totalSales5 + this.creditCard5;
       weekSize++;
       let salesD5 = this.totalSales5 / 1.108;
       let salesTaxD5 = salesD5 * 0.108;
@@ -137,6 +143,7 @@ export class WorkComponent implements OnInit {
     }
     // console.log(this.totalSales6 +" "+ this.creditCard6.toString() +" "+ this.day6.toString());
     if(this.day6.length > 1){
+      this.totalSales6 = this.totalSales6 + this.creditCard6;
       weekSize++;
       let salesD6 = this.totalSales6 / 1.108;
       let salesTaxD6 = salesD6 * 0.108;
